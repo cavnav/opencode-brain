@@ -5,9 +5,7 @@
 ## Установка
 
 ```bash
-git clone <url> brain-pack
-cd brain-pack
-opencode
+git clone https://github.com/cavnav/opencode-brain.git brain-pack && cd brain-pack && opencode
 ```
 
 В opencode введите:

@@ -1,0 +1,14 @@
+{
+  "name": "opencode-brain",
+  "version": "1.0.0",
+  "description": "Brain subagent for opencode — Gemini context bridge with PDF generation",
+  "bin": {
+    "gemini-pdf": "./gemini-pdf.js"
+  },
+  "dependencies": {
+    "pdfkit": "^0.15.0"
+  },
+  "scripts": {
+    "setup": "npm install && npm link && node install.js"
+  }
+}
